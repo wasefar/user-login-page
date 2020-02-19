@@ -1,0 +1,305 @@
+
+
+/* 1. Theme default css */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Poppins:300,400,500,600,700');
+body {
+   font-family: 'Poppins', sans-serif;
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+/* font-family: 'Oswald', sans-serif; */
+
+.img {
+   max-width: 100%;
+   transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+   float: left
+}
+
+.f-right {
+   float: right
+}
+
+.fix {
+   overflow: hidden
+}
+
+a,
+.button {
+   -webkit-transition: all 0.3s ease-out 0s;
+   -moz-transition: all 0.3s ease-out 0s;
+   -ms-transition: all 0.3s ease-out 0s;
+   -o-transition: all 0.3s ease-out 0s;
+   transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+   text-decoration: none;
+   outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+   color: #2B96CC;
+   text-decoration: none;
+}
+
+a,
+button {
+   color: #1696e7;
+   outline: medium none;
+}
+
+.uppercase {
+   text-transform: uppercase;
+}
+
+.capitalize {
+   text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: normal;
+   color: #313131;
+   margin-top: 0px;
+   font-style: normal;
+   font-weight: 400;
+   text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+   color: inherit;
+}
+
+h1 {
+   font-size: 40px;
+   font-weight: 500;
+}
+
+h2 {
+   font-size: 35px;
+}
+
+h3 {
+   font-size: 28px;
+}
+
+h4 {
+   font-size: 22px;
+}
+
+h5 {
+   font-size: 18px;
+}
+
+h6 {
+   font-size: 16px;
+}
+
+ul {
+   margin: 0px;
+   padding: 0px;
+}
+
+li {
+   list-style: none
+}
+
+p {
+   font-size: 14px;
+   font-weight: normal;
+   line-height: 24px;
+   color: #7e7e7e;
+   margin-bottom: 15px;
+}
+
+hr {
+   border-bottom: 1px solid #eceff8;
+   border-top: 0 none;
+   margin: 30px 0;
+   padding: 0;
+}
+
+label {
+   color: #7e7e7e;
+   cursor: pointer;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+*::-moz-selection {
+   background: #d6b161;
+   color: #fff;
+   text-shadow: none;
+}
+
+::-moz-selection {
+   background: #444;
+   color: #fff;
+   text-shadow: none;
+}
+
+::selection {
+   background: #444;
+   color: #fff;
+   text-shadow: none;
+}
+
+*::-moz-placeholder {
+   color: #555555;
+   font-size: 14px;
+   opacity: 1;
+}
+
+*::placeholder {
+   color: #555555;
+   font-size: 14px;
+   opacity: 1;
+}
+
+.separator {
+   border-top: 1px solid #f2f2f2
+}
+
+.main-page-warp.bg-shape {
+   background: url('../image/Loginpage1.jpg') no-repeat center/cover;
+   width: 100%;
+   height: 100%;
+}
+
+.system-login-image img {
+   width: 100%;
+}
+
+.login-from {
+   width: 100%;
+}
+
+label.bmd-label-floating.item-label {
+   color: #b3d8f5;
+   font-size: 14px;
+}
+
+label.bmd-label-floating.item-label i {
+   margin-right: 10px;
+   color: #2999F8;
+}
+
+.bmd-form-group .checkbox label {
+   color: #151515!important;
+   font-size: 12px;
+}
+
+.checkbox label .checkbox-decorator .check {
+   width: 20px!important;
+   height: 20px!important;
+}
+
+.ticket-tittle.text-center h2 {
+   font-weight: 700;
+   color: #00437A;
+   padding: 67px 0;
+}
+
+h3.text-center {
+   color: #0075D5;
+   font-size: 17px;
+}
+
+h3.text-center i {
+   margin-right: 8px;
+}
+
+.send-item.text-center .button-login {
+   background: #0075D5;
+   padding: 7px 44px;
+   border-radius: 50px;
+   color: #fff;
+   font-weight: 100;
+   font-size: 12px;
+   text-transform: uppercase;
+    border: none;
+}
+
+.send-item.text-center {
+   margin-top: 65px;
+}
+
+.login-from.middle {
+   width: 67%;
+   margin: 0 auto;
+}
+
+.form-control.wdt {
+   border-bottom: 2px solid #0075De;
+   background-image: none;
+}
+
+
+/******respossive-area-(media-query-option)**********/
+
+@media only screen and (min-width: 1199px) and (max-width: 1800px) {}
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .ticket-tittle.text-center h2 {
+      padding: 70px 0;
+   }
+   .login-from.middle {
+      width: 100%;
+   }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+   .system-login-image img {
+      width: 100%;
+      margin-bottom: 60px;
+   }
+   .ticket-tittle.text-center h2 {
+      font-size: 23px;
+   }
+   .login-from.middle {
+      width: 80%;
+   }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+   .form-input-sc-right .login-from.middle {
+      width: 100%;
+   }
+}
+
